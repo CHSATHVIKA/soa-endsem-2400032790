@@ -25,7 +25,7 @@ services:
   exam-service:
     image: chsathvika03/docker-skill-exam-2400032790:latest
     build:
-      context: .
+      context: ./charitymanagement
       dockerfile: backend.Dockerfile
     container_name: exam-service
     environment:
