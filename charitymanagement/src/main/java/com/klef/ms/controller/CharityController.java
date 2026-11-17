@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.*;
 import com.klef.ms.entity.CharityEntity;
 import com.klef.ms.service.CharityService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
+
+@Tag(name = "Charity Fund", description = "Charity fund CRUD operations")
 @RestController
 @CrossOrigin("*")
 public class CharityController {
